@@ -2,5 +2,5 @@
   (:require [oz.core :as oz]))
 
 (oz/build!
- [{:from "resources/static-site/src/"
-   :to   "resources/static-site/build/"}])
+ [{:from "examples/static-site/src/"
+   :to   "examples/static-site/build/"}])
